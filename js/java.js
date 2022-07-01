@@ -1,7 +1,7 @@
 
 alert(` مرحبا بك في موقعي ! أنا آية و سوف أحسب درجتك `)
 let grade = prompt(` قم بإدخال درجتك `)
-console.log(grade);
+console.log('%c'+ grade ,'color:green');
 if (grade>=90 && grade<=100){
     console.log("لقد حصلت على امتياز 🥳");
 }
